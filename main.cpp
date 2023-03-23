@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     // part 1
-    ifstream infile1("data31.txt");
+    ifstream infile1("data1.txt");
     if (!infile1) {
         cout << "File could not be opened." << endl;
         return 1;
@@ -27,7 +27,7 @@ int main() {
     infile1.close();
 
     // part 2
-    ifstream infile2("data32.txt");
+    ifstream infile2("data2.txt");
     if (!infile2) {
         cout << "File could not be opened." << endl;
         return 1;
